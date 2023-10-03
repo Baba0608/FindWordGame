@@ -5,25 +5,67 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(0, 255, 115);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.start button{
-    width: 150px;
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aqua;
     padding: 20px;
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: lightcoral;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .4);
 }
 
-.start button:hover{
-    cursor: pointer;
-    background-color: rgb(235, 57, 57);
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(167, 188, 50);
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(113, 16, 16);
+}
+
+.buttons{
+
+    background-color: lightsalmon;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;
+    align-items: center;
+    
+}
+
+.btn{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn button{
+    width: 120px;
+    padding: 10px;
+    font-size: 20px;
+
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: 0px 6px 10px rgba(0,0,0,.4);
+}
+
+
+.btn button:hover{
+
+    background-color: darkcyan;
     color: white;
-    box-shadow: 0px 10px 10px rgba(0,0,0,.4);
+    transition: all ease-in-out 300ms;
 }
