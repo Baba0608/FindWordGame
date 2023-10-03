@@ -5,37 +5,25 @@
 }
 
 body{
+    background-color: aqua;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-}
-
-.detailsBox{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 20px ;
-    width: 300px;
-    background-color: lightcoral;
-    height: 40px;
-    border-radius: 10px;
-    
-}
-
-.details , .buttons{
-    display: flex;
     align-items: center;
 }
 
-.details{
+.start button{
+    width: 150px;
+    padding: 20px;
     font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightcoral;
 }
 
-
-.delete , .edit{
-    background-color: lightgreen;
-    color: red;
-    border: none;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+.start button:hover{
+    cursor: pointer;
+    background-color: rgb(235, 57, 57);
+    color: white;
+    box-shadow: 0px 10px 10px rgba(0,0,0,.4);
 }
