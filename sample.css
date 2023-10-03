@@ -15,16 +15,18 @@ body{
 .box{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     background-color: aqua;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, .4);
+    width: 250px;
 }
 
 .title{
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: rgb(167, 188, 50);
     margin: 20px 0px;
     padding: 20px;
@@ -40,7 +42,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 10px;
-    width: 300px;
+    width: 220px;
     align-items: center;
     
 }
