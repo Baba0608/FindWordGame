@@ -41,9 +41,14 @@ body{
     }
 
     #word-to-guess{
-        display: flex;
-        justify-content: center;
-        
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 5px;
+
+    }
+
+    .chances{
+        font-size: 10px;
     }
 }
 
