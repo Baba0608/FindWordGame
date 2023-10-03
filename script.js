@@ -13,7 +13,7 @@ const wonLost = document.getElementById("won-lost");
 const hasSet = document.getElementById("set");
 const guessedSet = document.getElementById("guessedSet");
 
-const word = "BAHUBALI";
+const word = "RANGASTALAM";
 let ans = [];
 let ansStr = "";
 
