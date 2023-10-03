@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find word</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <!-- <h1>FIND WORD GAME</h1> -->
+    <div class="content">
+
+        <div class="main">
+
+            <div class="title">
+                <h1>FIND WORD GAME</h1>
+            </div>
+        
+            <div class="chances">
+                <p>No.of chances remaining</p>
+                <p id="count">7</p>
+            </div>
+        
+            <div class="word">
+                <p id="word-to-guess">______</p>
+                <p class="set" id="set">You have already guessed the letter, guess a new letter</p>
+                <div class="inp" id="inp">
+                    <label for="letter">GUESS A LETTER:</label>
+                    <input type="text" id="letter" maxlength="1">
+                </div>
+
+                <div class="won-lost" id="won-lost">
+                    
+                </div>
+                
+            </div>
+        
+            <div class="guessed">
+                <p>Letters already guessed: <span id="guessedSet"></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

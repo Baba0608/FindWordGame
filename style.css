@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+
+    background-color: lightcoral;
+}
+.title{
+    margin-bottom: 70px;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main{
+    background-color: rgba(144, 238, 144, .9);
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+    
+}
+
+@media (max-width:600px){
+    .main{
+        width: 90%;
+    }
+}
+
+.chances , .word , .guessed{
+    display: block;
+}
+
+.chances{
+    font-size: 40px;
+    text-align: center;
+}
+
+#count{
+    font-size: 60px;
+}
+
+.word{
+    margin: 40px;
+}
+#word-to-guess{
+    letter-spacing: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: darkred;
+    font-weight: 600;
+}
+
+.guessed{
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+}
+
+.input{
+    font-size: 20px;
+}
+
+.inp , #letter{
+    font-size: 20px;
+}
+
+.inp{
+    text-align: center;
+}
+
+#letter{
+    width: 50px;
+}
+
+.inp-remove{
+    display: none;
+}
+
+.won-lost{
+    display: none;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.set{
+    display: none;
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: blueviolet;
+}

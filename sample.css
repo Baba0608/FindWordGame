@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.detailsBox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px ;
+    width: 300px;
+    background-color: lightcoral;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.details , .buttons{
+    display: flex;
+    align-items: center;
+}
+
+.details{
+    font-size: 20px;
+}
+
+
+.delete , .edit{
+    background-color: lightgreen;
+    color: red;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
