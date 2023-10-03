@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightpink;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: darkred;
+}
+
+.box{
+    width: 400px;
+    background-color: lightsteelblue;
+    
+}
+
+.ruleslist ul{
+    list-style-type: decimal;
+    font-size: 20px;
+
+    padding: 20px 5px 20px 30px;
+
+}
+
+ul li{
+    margin: 20px 0px;
+}
+
+
+@media (max-width:400px){
+    .box{
+        width:90%
+    }
+}
