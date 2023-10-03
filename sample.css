@@ -74,7 +74,7 @@ body{
 
 @media (max-width:300px){
     .box{
-        width: 90%;
+        width: 235px;
     }
 
     .title{
@@ -84,6 +84,6 @@ body{
 
     .buttons{
         width: 85%;
-        
+
     }
 }
