@@ -1,4 +1,31 @@
-let arr = ["JERSEY", "SKANDA", "RRR", "BAHUBALI"];
+let arr = [
+  "JERSEY",
+  "SKANDA",
+  "RRR",
+  "BAHUBALI",
+  "RANGASTALAM",
+  "KUSHI",
+  "SAHOO",
+  "VENKEYMAMA",
+  "MANAM",
+  "NAYAK",
+  "SREEKARAM",
+  "BILLA",
+  "DEVADASU",
+  "READY",
+  "JANATHAGARAGE",
+  "HAPPY",
+  "BUNNY",
+  "AKHIL",
+  "EEGA",
+  "KRACK",
+  "HYPER",
+  "RADHESHYAM",
+  "JALSA",
+  "TAMMUDU",
+  "JAILAVAKUSA",
+  "TAGORE",
+];
 
 let eleSet = new Set();
 
@@ -13,7 +40,8 @@ const wonLost = document.getElementById("won-lost");
 const hasSet = document.getElementById("set");
 const guessedSet = document.getElementById("guessedSet");
 
-const word = "RANGASTALAM";
+let num = Math.floor(Math.random() * arr.length);
+const word = arr[num];
 let ans = [];
 let ansStr = "";
 
