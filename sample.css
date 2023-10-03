@@ -72,9 +72,9 @@ body{
     transition: all ease-in-out 300ms;
 }
 
-@media (max-width:300px){
+@media (max-width:400px){
     .box{
-        width: 235px;
+        width: 80%;
     }
 
     .title{
