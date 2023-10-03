@@ -39,6 +39,12 @@ body{
     .main{
         width: 90%;
     }
+
+    #word-to-guess{
+        display: flex;
+        justify-content: center;
+        
+    }
 }
 
 .chances , .word , .guessed{
