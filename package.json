@@ -1,0 +1,14 @@
+{
+  "name": "findword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Baba",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

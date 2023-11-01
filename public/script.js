@@ -105,7 +105,7 @@ function game(e) {
       const restartBtn = document.createElement("a");
       const textspan = document.createElement("span");
       restartBtn.textContent = "Click here";
-      restartBtn.href = "index.html";
+      restartBtn.href = "index";
       wonLost.appendChild(p);
       restart.appendChild(restartBtn);
       textspan.textContent = " to start a new game";
@@ -123,7 +123,7 @@ function game(e) {
       const restartBtn = document.createElement("a");
       const textspan = document.createElement("span");
       restartBtn.textContent = "Click here";
-      restartBtn.href = "index.html";
+      restartBtn.href = "index";
       wonLost.appendChild(p);
       restart.appendChild(restartBtn);
       textspan.textContent = " to start a new game";
